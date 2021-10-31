@@ -7,7 +7,7 @@ pipeline{
         stage("build") {
             steps{
                 echo "building..."
-                echo "id is %GIT_COMMIT% "
+                echo "id is ${GIT_COMMIT} "
             }
         }
 
