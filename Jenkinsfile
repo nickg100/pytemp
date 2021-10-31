@@ -8,7 +8,7 @@ pipeline{
             steps{
                 echo "building..."
                 echo "id is ${GIT_COMMIT} "
-                nodejs('Node-17.0.1){
+                nodejs('Node-17.0.1'){
                        sh 'yarn install'
                  }
             }
