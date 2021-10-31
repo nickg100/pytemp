@@ -6,7 +6,7 @@ pipeline{
 
         stage("build") {
             steps{
-                python main.py
+                echo "building.."
             }
         }
 
